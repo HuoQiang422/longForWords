@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/show_etymon"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <TextView
+            android:id="@+id/etymon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="state"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="42dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etymon"
+            android:gravity="center_horizontal"
+            android:text="n.状态、情况、国、州 v. 陈述、说明、规定"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="18dp"></TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

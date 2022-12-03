@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:id="@+id/word_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="state"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            ></TextView>
+        <TextView
+            android:id="@+id/exp"
+            android:layout_below="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="n.状态、情况、国、州 \nv. 陈述、说明、规定"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            ></TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

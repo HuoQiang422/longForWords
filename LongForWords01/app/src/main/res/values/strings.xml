@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">恋词</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="foot_bar_words">单词</string>
+    <string name="foot_bar_NWordBook">生词本</string>
+    <string name="foot_bar_Mine">我的</string>
+    <string name="author_name">@寒漓</string>
+    <string name="new_word_book">生词本</string>
+    <string name="word_share">共享词</string>
+    <string name="lianci">恋词</string>
+    <string name="search">联网查词</string>
+    <string name="mine">我的</string>
+    <string name="exit">退出</string>
+
+</resources>
